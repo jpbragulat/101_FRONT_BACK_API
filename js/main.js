@@ -4,7 +4,7 @@ $( document ).ready(function() {
 
   $.get( "https://localhost:7233/WeatherForecast", function( data ) {
       $( "#result" ).html(data[1]["date"] + " - " + data[1]["summary"] + " - " + data[1]["temperatureC"]); // accede a id objeto porq quiere cambiar solo ese y no se pueden repetir
-          console.log (data); // para modificar una clase es con ".nombre"
+          console.log (data); // para modificar una clase es con ".nombre" //probando github
        
        let i = 0;
        for (i=0; i < data.length; i ++)
