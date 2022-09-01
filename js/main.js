@@ -9,7 +9,7 @@ $( document ).ready(function() {
        let i = 0;
        for (i=0; i < data.length; i ++)
        {
-          $("#listini").append('<li>' + data[i]["date"] + '</li>');
+          $("#listini").append('<li>' + data[i]["date"] + data[i]["temperatureC"] + data[i]["summary"] + '</li>');
        }
   });
 
